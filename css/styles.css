@@ -457,3 +457,6 @@ a.btn.lgi,a.btn2.lgr{display:inline-block;text-decoration:none;text-align:center
 .pol h3{margin:16px 0 4px;font-size:17px}.pol h3:first-child{margin-top:0}.pol p{margin:0 0 6px}
 #politicas{scroll-margin-top:90px}
 #um a.ubi:hover,#um a.ubi:focus-visible{background:#D4AF5A;border-color:#D4AF5A;color:#082E24}
+/* v2.1: transferencia con la vista ordenada */
+.tq{grid-template-columns:168px minmax(0,1fr)}.tq>div:first-child{width:168px}.tq>div:first-child small{font-size:.875rem}
+@media(max-width:560px){.tq{grid-template-columns:1fr}.tq>div:first-child{margin:0 auto}}
